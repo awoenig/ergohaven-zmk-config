@@ -50,13 +50,6 @@
             bindings = <&kp LCMD &kp NUMBER_2>;
             label = "W2";
         };
-
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>;
-            label = "NEW_MACRO";
-        };
     };
 
     keymap {
