@@ -50,10 +50,10 @@
 
         base {
             bindings = <
-&kp ESC    &kp Q  &kp W     &kp E      &kp R         &kp T                        &kp Y  &kp U  &kp I      &kp O     &kp P     &kp BSPC
-&kp TAB    &kp A  &kp S     &kp D      &kp F         &kp G                        &kp H  &kp J  &kp K      &kp L     &kp SEMI  &kp SLASH
-&kp LSHFT  &kp Z  &kp X     &kp C      &kp V         &kp B                        &kp N  &kp M  &kp COMMA  &kp DOT   &kp SQT   &kp RSHFT
-                  &kp LALT  &kp LCTRL  &kp LEFT_GUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &none  &kp LBKT   &kp RBKT
+&kp ESC    &kp Q  &kp W     &kp E             &kp R         &kp T                        &kp Y  &kp U  &kp I      &kp O     &kp P     &kp BSPC
+&kp TAB    &kp A  &kp S     &kp D             &kp F         &kp G                        &kp H  &kp J  &kp K      &kp L     &kp SEMI  &kp SLASH
+&kp LSHFT  &kp Z  &kp X     &kp C             &kp V         &kp B                        &kp N  &kp M  &kp COMMA  &kp DOT   &kp SQT   &kp RSHFT
+                  &kp LALT  &kp LEFT_CONTROL  &kp LEFT_GUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &none  &kp LBKT   &kp RBKT
             >;
 
             display-name = "Base";
@@ -85,7 +85,7 @@
             bindings = <
 &bootloader  &none   &kp F22  &kp F23  &kp F3   &kp F4                   &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4  &bt BT_CLR
 &kp F1       &kp F2  &kp F5   &kp F6   &kp F7   &kp F8                   &out OUT_BLE  &kp C_VOL_DN     &kp K_MUTE    &kp C_VOL_UP    &none         &studio_unlock
-&tog 4       &none   &kp F9   &kp F10  &kp F11  &kp F12                  &out OUT_USB  &kp PRINTSCREEN  &kp C_RECORD  &kp C_AC_PRINT  &none         &none
+&none        &none   &kp F9   &kp F10  &kp F11  &kp F12                  &out OUT_USB  &kp PRINTSCREEN  &kp C_RECORD  &kp C_AC_PRINT  &none         &none
                      &none    &none    &none    &none    &none    &none  &none         &none            &none         &none
             >;
 
@@ -96,7 +96,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &mo 6   &mkp MB1  &mkp MB2  &mkp MB3  &mo 5   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans  &tog 0
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans  &trans
                 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans
             >;
 
