@@ -69,7 +69,7 @@
                 <&macro_tap>,
                 <&kp V>,
                 <&macro_release>,
-                <&kp V>;
+                <&kp LCTRL>;
 
             label = "PASTE";
         };
