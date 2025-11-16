@@ -34,7 +34,7 @@
             #binding-cells = <0>;
             bindings = <&copynos>, <&pastenos>;
 
-            tapping-term-ms = <50>;
+            tapping-term-ms = <111>;
         };
 
         zip_auto_mouse: zip_auto_mouse {
